@@ -1,0 +1,213 @@
+/* Your styles here */
+
+/* **************************************************************COMANDI GENERICI*************************************************************************************************     */
+.full-screen {
+    background-color: #131921;
+}
+
+.full-screen2 {
+    background-color: #485769;
+}
+
+
+body {
+    background-color: #E3E6E6;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#struttuta-interna {
+    max-width: 95%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* **************************************************************HEADER*************************************************************************************************     */
+header {
+    height: 10%;
+}
+
+#primo-logo {
+    width: 10%;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.full-screen2 {
+    background-color: #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.full-screen2 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.full-screen2 a:hover {
+    background-color: #555;
+}
+
+/* **************************************************************BANNER*********************************************************************************************     */
+
+
+h1 {
+    font-weight: bold;
+}
+
+#banner1, #banner2 {
+    background-color: #E67A00;
+    width: 100%;
+
+    padding: 1em, 1em;
+
+    text-align: center;
+
+    color: white;
+    margin-top: 1.5em;
+}
+
+#banner1 h3 {
+    padding: 0.5em;
+}
+
+
+#banner2 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-image: url(/assets/images/bg-image.png);
+    background-size: auto;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+#banner2 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+
+#banner2 p {
+    font-size: 18px;
+
+}
+
+
+
+/* **************************************************************IMMAGINI AFFIANCATE*************************************************************************************************     */
+
+
+
+
+
+#contenitore-img {
+    background-color: white;
+    margin: 0 auto;
+
+    height: 23em;
+
+    padding: 1em;
+
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.immagine-pu {
+
+
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#contenitore-img p {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+
+.immagine-pu img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/****************************************************IMMAGINI GRANDI*****************************************************************************/
+
+.big-pic {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.big-pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Paragrafo-speciale {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-speciali {
+    color: #008296;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.link-speciali:hover {
+    text-decoration: underline;
+
+
+}
+
+/****************************************************IMMAGINI GRANDI*****************************************************************************/
+
+footer {
+    text-align: center;
+}
+
+#footer-iv {
+    background-color: #485769;
+    height: 3em;
+
+    padding-top: 2em;
+}
+
+#footer-iv a {
+    color: #fff;
+
+    padding: 10px 20px;
+}
+
+#footer-iv a:hover {
+    background-color: #555;
+}
+
+#footer-ib {
+    text-align: center;
+    background-color: #131921;
+
+}
+
+#footer-ib img {
+    width: 15%;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-bottom: 4em;
+
+}
